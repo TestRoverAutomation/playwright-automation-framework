@@ -1,7 +1,7 @@
 import {test, expect } from '@playwright/test';
 import {login_locators} from './ecomlogintestlocators';
 import { login_data } from './ecomlogintestdata';
-test.describe('login test suit @ecom',()=>{ 
+test.describe('Ecom login test suit @ecom',()=>{ 
 
     test.beforeEach(async ({page}) => { 
         await test.step('Given I navigate to login_page', async()=> {
